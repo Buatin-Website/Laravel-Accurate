@@ -13,7 +13,11 @@ class Accurate
 {
     public const ACCURATE_AUTH_ENDPONT = "https://account.accurate.id/oauth";
     public const ACCURATE_API_ENDPOINT = "https://zeus.accurate.id/accurate/api";
-    public const ACCURATE_API_ENDPOINT_BASIC = "https://account.accurate.id/api";
+
+    public static function ACCURATE_API_ENDPOINT()
+    {
+        return env('ACCURATE_API_ENDPOINT', null);
+    }
 
     public static function setting($key)
     {
@@ -21,7 +25,6 @@ class Accurate
     }
 
     /**
-     * @throws GuzzleException
      * @throws Exception
      */
     public static function request($endpoint, $type, $query = null, $session = false): JsonResponse
