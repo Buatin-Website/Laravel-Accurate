@@ -16,7 +16,7 @@
   ],
   "require": {
     "illuminate/support": "~5|~6|~8",
-    "buatin/core": "dev-feature/suport-old-laravel"
+    "buatin/core": "^v1.0.6"
   },
   "autoload": {
     "psr-4": {
