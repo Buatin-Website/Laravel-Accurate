@@ -12,7 +12,7 @@ use Illuminate\Http\JsonResponse;
 class Accurate
 {
     public const ACCURATE_AUTH_ENDPONT = "https://account.accurate.id/oauth";
-    public const ACCURATE_API_ENDPOINT = "https://zeus.accurate.id/accurate/api";
+    public const ACCURATE_API_ENDPOINT_BASIC = "https://account.accurate.id/api";
 
     public static function ACCURATE_API_ENDPOINT()
     {
