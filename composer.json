@@ -16,7 +16,7 @@
   ],
   "require": {
     "illuminate/support": "~5|~6|~7|~8",
-    "buatin/core": "^v1.0.6"
+    "buatin/core": "dev-feature/l7"
   },
   "autoload": {
     "psr-4": {
