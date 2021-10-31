@@ -15,8 +15,8 @@
     "Accurate"
   ],
   "require": {
-    "illuminate/support": "~5|~6|~7|~8",
-    "buatin/core": "^3.0.0"
+    "illuminate/support": "~8",
+    "buatin/core": "^v3.0.1"
   },
   "autoload": {
     "psr-4": {
